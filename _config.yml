@@ -144,7 +144,9 @@ content:
         description: |
           - Status: Application
           - Application Number: 10-2023-0187604
-          - Description: 6D pose estimation of a robot end-effector after image matching using RGB.
+          - Description: The system obtains RGB and point cloud data from a reference camera,
+           and only RGB from a target camera. Based on these inputs, it performs image matching.
+           The system utilizes 2D image matching keypoints and the reference point cloud to estimate the degree of movement and rotation of the target RGB relative to the reference RGB image.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
