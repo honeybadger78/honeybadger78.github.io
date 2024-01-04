@@ -1,0 +1,132 @@
+# Site
+repository: honeybadger78/honeybadger78.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jaewoo Choi
+title: Computer Vision
+email: allyouneed3002@gmaiil.com
+website: https://www.linkedin.com/in/iamjaewoo/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: alluneed078
+github_username:  honeybadger78
+linkedin_username: iamjaewoo
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a Computer Vision Developer with a deep passion for deep learning and computer vision technologies. Currently working in this field, my goal is to solve real-world problems using computer vision techniques. I am driven by the challenge and innovation in this area and aspire to make a positive impact in the world through cutting-edge technology.
+
+  I am most skilled in: <mark>Python</mark>, <mark>Pytorch</mark>, <mark>C++</mark>
+
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Seokyeong University
+        sub_title: BSc Industrial Engineering (GPA 3.34/4.5)
+        caption: 2016 - 2022
+        description: | # this will include new lines to allow paragraphs
+            I may not have been the most studious or naturally gifted student, but my dedication to pursuing my passions was unwavering. My academic journey led me to major in Industrial Engineering and minor in Big Data Software, areas where my true interests and hard work converged to forge a unique and robust skill set.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: PLAIF
+        link: plaif.com
+        sub_title: Computer Vision Developer
+        caption: January 2023 - Present
+        description: | # this will include new lines to allow paragraphs
+            I focus on developing 6D pose estimation for various objects, complemented by my expertise in instance segmentation and object detection. I also calibrated the robot and camera, and finally derived the coordinates of the objects from the robot.
+
+      - layout: left
+        title: FS_Solution
+        link: fssolution.co.kr
+        sub_title: Computer Vision Developer
+        caption: May 2022 - December 2022
+        description: | # this will include new lines to allow paragraphs
+            My primary role involved object detection or classification from vehicle black boxes. Additionally, I have experience in creating auto-labeling and Optical Character Recognition (OCR).
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-left
+        title: Automated Assembly
+        sub_title: PLAIF
+        link: youtube.com/watch?v=qSy5WwlCLMY
+        link_text: Project Website
+        description: | # this will include new lines to allow paragraphs
+          Developed an AI-based image matching technique to calculate rotation matrices and translation vectors for precise connector insertions. This approach enabled accurate localization and automation of the insertion process.
+
+      - layout: top-left
+        title: Preson Fall Tracking
+        sub_title: FS_Solution
+        description: | # this will include new lines to allow paragraphs
+          For real-time multi-object tracking and identification of elderly fall events, we designed a surveillance system capable of object tracking and fall detection using advanced computer vision and machine learning algorithms.
+
+      - layout: top-left
+        title: Car License Plate Recognition
+        sub_title: FS_Solution
+        description: | # this will include new lines to allow paragraphs
+          Created a system for recognizing and identifying vehicle license plates using advanced computer vision techniques, including object detection and OCR, to efficiently process and transcribe alphanumeric characters under various conditions.
+
+      - layout: top-left
+        title: Auto-Labeling Tool
+        sub_title: FS_Solution
+        description: | # this will include new lines to allow paragraphs
+          Developed a YOLO-based auto-labeling tool to automate and enhance data annotation for AI training, significantly reducing data preparation time and improving dataset accuracy.
+
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
