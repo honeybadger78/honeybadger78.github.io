@@ -106,7 +106,6 @@ content:
     content:
       - layout: top-left
         title: Dacon 3D number classification
-        link: dacon.io/competitions/official/235951/overview/description
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
@@ -117,23 +116,23 @@ content:
 
       - layout: top-left
         title: Kaggle Image Matching
-        link: kaggle.com/competitions/image-matching-challenge-2022
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
             url: github.com/honeybadger78/kaggle_image_matching2022
         description: | # this will include new lines to allow paragraphs
-          Have to fill
+          - rank: 50 / 642 (Sliver Medal)
+          -
 
       - layout: top-left
         title: Kaggle Happy Whale
-        link: kaggle.com/competitions/happy-whale-and-dolphin
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
             url: github.com/honeybadger78/kaggle_happy_whale
         description: | # this will include new lines to allow paragraphs
-          Have to fill
+          - rank: 127 / 1588 (Brozne Medal)
+          -
 
   - title: Patents
     layout: list
