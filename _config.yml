@@ -37,8 +37,9 @@ linkedin_username: iamjaewoo
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a Computer Vision Developer with a deep passion for deep learning and computer vision technologies. Currently working in this field, my goal is to solve real-world problems using computer vision techniques. I am driven by the challenge and innovation in this area and aspire to make a positive impact in the world through cutting-edge technology.
-
+  I am a Computer Vision Developer with a deep passion for deep learning and computer vision technologies.
+  Currently working in this field, my goal is to solve real-world problems using computer vision techniques.
+  I am driven by the challenge and innovation in this area and aspire to make a positive impact in the world through cutting-edge technology.
   I am most skilled in: <mark>Python</mark>, <mark>Pytorch</mark>, <mark>C++</mark>
 
 
@@ -111,7 +112,7 @@ content:
             icon: fab fa-github
             url: github.com/honeybadger78/dacon_3d_number_classification
         description: | # this will include new lines to allow paragraphs
-          - rank: 8 / 165
+          - Rank: 8 / 165
           - By integrating models using CNNs and innovative data augmentation, we improved VoxelNet model performance by achieving a breakthrough score of over 0.80, resulting in a top 1% result.
 
       - layout: top-left
@@ -121,7 +122,7 @@ content:
             icon: fab fa-github
             url: github.com/honeybadger78/kaggle_image_matching2022
         description: | # this will include new lines to allow paragraphs
-          - rank: 50 / 642 (Sliver Medal)
+          - Rank: 50 / 642 (Sliver Medal)
           -
 
       - layout: top-left
@@ -131,16 +132,19 @@ content:
             icon: fab fa-github
             url: github.com/honeybadger78/kaggle_happy_whale
         description: | # this will include new lines to allow paragraphs
-          - rank: 127 / 1588 (Brozne Medal)
+          - Rank: 127 / 1588 (Brozne Medal)
           -
 
   - title: Patents
     layout: list
     content:
       - layout: left
-        title: Patent Name
+        title: An artificial intelligence-based pose estimation device and method for estimating the pose of a robot's end effector with respect to an object,
+         and a robot control system including the same
         description: |
-          Patent description here
+          - Status: Application
+          - Application Number: 10-2023-0187604
+          - Description: 6D pose estimation of a robot end-effector after image matching using RGB.
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
