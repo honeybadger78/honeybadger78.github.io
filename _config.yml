@@ -112,7 +112,7 @@ content:
             icon: fab fa-github
             url: github.com/honeybadger78/dacon_3d_number_classification
         description: | # this will include new lines to allow paragraphs
-          - Rank: 8 / 165
+          - Rank: 8 / 165 (Winner)
           - By integrating models using CNNs and innovative data augmentation, we improved VoxelNet model performance by achieving a breakthrough score of over 0.80, resulting in a top 1% result.
 
       - layout: top-left
