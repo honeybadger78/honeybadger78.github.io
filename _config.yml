@@ -101,8 +101,47 @@ content:
         description: | # this will include new lines to allow paragraphs
           Developed a YOLO-based auto-labeling tool to automate and enhance data annotation for AI training, significantly reducing data preparation time and improving dataset accuracy.
 
+  - title: Awards # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-left
+        title: Dacon 3D number classification
+        link: dacon.io/competitions/official/235951/overview/description
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/honeybadger78/dacon_3d_number_classification
+        description: | # this will include new lines to allow paragraphs
+          - rank: 8 / 165
+          - By integrating models using CNNs and innovative data augmentation, we improved VoxelNet model performance by achieving a breakthrough score of over 0.80, resulting in a top 1% result.
 
+      - layout: top-left
+        title: Kaggle Image Matching
+        link: kaggle.com/competitions/image-matching-challenge-2022
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/honeybadger78/kaggle_image_matching2022
+        description: | # this will include new lines to allow paragraphs
+          Have to fill
 
+      - layout: top-left
+        title: Kaggle Happy Whale
+        link: kaggle.com/competitions/happy-whale-and-dolphin
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/honeybadger78/kaggle_happy_whale
+        description: | # this will include new lines to allow paragraphs
+          Have to fill
+
+  - title: Patents
+    layout: list
+    content:
+      - layout: left
+        title: Patent Name
+        description: |
+          Patent description here
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
