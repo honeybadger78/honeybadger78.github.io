@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Jaewoo Choi
-title: Computer Vision
+title: Computer Vision Engineer
 email: allyouneed3002@gmaiil.com
 website: https://www.linkedin.com/in/iamjaewoo/
 
@@ -51,7 +51,10 @@ content:
         sub_title: BSc Industrial Engineering (GPA 3.34/4.5)
         caption: 2016 - 2022
         description: | # this will include new lines to allow paragraphs
-            I may not have been the most studious or naturally gifted student, but my dedication to pursuing my passions was unwavering. My academic journey led me to major in Industrial Engineering and minor in Big Data Software, areas where my true interests and hard work converged to forge a unique and robust skill set.
+            I may not have been the most studious or naturally gifted student,
+            but my dedication to pursuing my passions was unwavering.
+            My academic journey led me to major in Industrial Engineering and minor in Big Data Software,
+            areas where my true interests and hard work converged to forge a unique and robust skill set.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -62,7 +65,9 @@ content:
         sub_title: Computer Vision Developer
         caption: January 2023 - Present
         description: | # this will include new lines to allow paragraphs
-            I focus on developing 6D pose estimation for various objects, complemented by my expertise in instance segmentation and object detection. I also calibrated the robot and camera, and finally derived the coordinates of the objects from the robot.
+            I focus on developing 6D pose estimation for various objects,
+            complemented by my expertise in instance segmentation and object detection.
+            I also calibrated the robot and camera, and finally derived the coordinates of the objects from the robot.
 
       - layout: left
         title: FS_Solution
@@ -70,40 +75,72 @@ content:
         sub_title: Computer Vision Developer
         caption: May 2022 - December 2022
         description: | # this will include new lines to allow paragraphs
-            My primary role involved object detection or classification from vehicle black boxes. Additionally, I have experience in creating auto-labeling and Optical Character Recognition (OCR).
+            My primary role involved object detection or classification from vehicle black boxes.
+            Additionally, I have experience in creating auto-labeling and Optical Character Recognition (OCR).
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      
       - layout: top-left
         title: Automated Assembly
         sub_title: PLAIF
         link: youtube.com/watch?v=qSy5WwlCLMY
         link_text: Project Website
         description: | # this will include new lines to allow paragraphs
-          Developed an AI-based image matching technique to calculate rotation matrices and translation vectors for precise connector insertions. This approach enabled accurate localization and automation of the insertion process.
+          - Date: May 2023 - December 2023
+          - Description: Developed an AI-based image matching technique to calculate rotation matrices and translation vectors for precise connector insertions. 
+          This approach enabled accurate localization and automation of the insertion process.
+      
+      - layout: top-left
+        title: Bin Picking
+        sub_title: PLAIF
+        link: youtube.com/watch?v=z3cKrSe1jms
+        link_text: Project Website
+        description: | # this will include new lines to allow paragraphs
+          - Date: Jan 2023 - April 2023
+          - Description: Developed an AI model for Instance Segmentation.
 
       - layout: top-left
         title: Preson Fall Tracking
         sub_title: FS_Solution
         description: | # this will include new lines to allow paragraphs
-          For real-time multi-object tracking and identification of elderly fall events, we designed a surveillance system capable of object tracking and fall detection using advanced computer vision and machine learning algorithms.
-
-      - layout: top-left
-        title: Car License Plate Recognition
-        sub_title: FS_Solution
-        description: | # this will include new lines to allow paragraphs
-          Created a system for recognizing and identifying vehicle license plates using advanced computer vision techniques, including object detection and OCR, to efficiently process and transcribe alphanumeric characters under various conditions.
+          - Date: Nov 2022 - Dec 2022
+          - Description: For real-time multi-object tracking and identification of elderly fall events,
+          we designed a surveillance system capable of object tracking and fall detection
+          using advanced computer vision and machine learning algorithms.
 
       - layout: top-left
         title: Auto-Labeling Tool
         sub_title: FS_Solution
         description: | # this will include new lines to allow paragraphs
-          Developed a YOLO-based auto-labeling tool to automate and enhance data annotation for AI training, significantly reducing data preparation time and improving dataset accuracy.
+          - Date: Aug 2022 - Oct 2022
+          - Description: Developed a YOLO-based auto-labeling tool to automate and enhance data annotation for AI training,
+          significantly reducing data preparation time and improving dataset accuracy.
+
+      - layout: top-left
+        title: Car License Plate Recognition
+        sub_title: FS_Solution
+        description: | # this will include new lines to allow paragraphs
+          - Date: Jun 2022 - Aug 2022
+          - Description: Created a system for recognizing and identifying vehicle license plates using advanced computer vision techniques,
+          including object detection and OCR, to efficiently process and transcribe alphanumeric characters under various conditions.
+
 
   - title: Awards # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-left
+        title: Kaggle UBC-OCEAN
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url:
+        description: | # this will include new lines to allow paragraphs
+          - Date: Oct 2023 ~ Jan 2024
+          - Rank: 83 / 1326 (Bronze Medal)
+          - Description:
+
       - layout: top-left
         title: Dacon 3D number classification
         additional_links:
@@ -111,8 +148,11 @@ content:
             icon: fab fa-github
             url: github.com/honeybadger78/dacon_3d_number_classification
         description: | # this will include new lines to allow paragraphs
+          - Date: Aug 2022 ~ Sep 2022
           - Rank: 8 / 165 (Winner)
-          - By integrating models using CNNs and innovative data augmentation, we improved VoxelNet model performance by achieving a breakthrough score of over 0.80, resulting in a top 1% result.
+          - Description: By integrating models using CNNs and innovative data augmentation,
+            we improved VoxelNet model performance by achieving a breakthrough score of over 0.80,
+            resulting in a top 1% result.
 
       - layout: top-left
         title: Kaggle Image Matching
@@ -121,8 +161,9 @@ content:
             icon: fab fa-github
             url: github.com/honeybadger78/kaggle_image_matching2022
         description: | # this will include new lines to allow paragraphs
+          - Date: April 2022 ~ June 2022
           - Rank: 50 / 642 (Sliver Medal)
-          -
+          - Description:
 
       - layout: top-left
         title: Kaggle Happy Whale
@@ -131,8 +172,9 @@ content:
             icon: fab fa-github
             url: github.com/honeybadger78/kaggle_happy_whale
         description: | # this will include new lines to allow paragraphs
-          - Rank: 127 / 1588 (Brozne Medal)
-          -
+          - Date: Feb 2022 ~ April 2022
+          - Rank: 127 / 1588 (Bronze Medal)
+          - Description:
 
   - title: Patents
     layout: list
