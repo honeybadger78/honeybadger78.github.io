@@ -85,8 +85,6 @@ content:
       - layout: top-left
         title: Automated Assembly
         sub_title: PLAIF
-        link: youtube.com/watch?v=qSy5WwlCLMY
-        link_text: Project Website
         description: | # this will include new lines to allow paragraphs
           - Date: May 2023 - December 2023
           - Description: Developed an AI-based image matching technique to calculate rotation matrices and translation vectors for precise connector insertions. 
@@ -95,8 +93,6 @@ content:
       - layout: top-left
         title: Bin Picking
         sub_title: PLAIF
-        link: youtube.com/watch?v=z3cKrSe1jms
-        link_text: Project Website
         description: | # this will include new lines to allow paragraphs
           - Date: Jan 2023 - April 2023
           - Description: Developed an AI model for Instance Segmentation.
@@ -132,10 +128,6 @@ content:
     content:
       - layout: top-left
         title: Kaggle UBC-OCEAN
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url:
         description: | # this will include new lines to allow paragraphs
           - Date: Oct 2023 ~ Jan 2024
           - Rank: 83 / 1326 (Bronze Medal)
@@ -143,10 +135,6 @@ content:
 
       - layout: top-left
         title: Dacon 3D number classification
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/honeybadger78/dacon_3d_number_classification
         description: | # this will include new lines to allow paragraphs
           - Date: Aug 2022 ~ Sep 2022
           - Rank: 8 / 165 (Winner)
@@ -156,10 +144,6 @@ content:
 
       - layout: top-left
         title: Kaggle Image Matching
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/honeybadger78/kaggle_image_matching2022
         description: | # this will include new lines to allow paragraphs
           - Date: April 2022 ~ June 2022
           - Rank: 50 / 642 (Sliver Medal)
@@ -167,10 +151,6 @@ content:
 
       - layout: top-left
         title: Kaggle Happy Whale
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/honeybadger78/kaggle_happy_whale
         description: | # this will include new lines to allow paragraphs
           - Date: Feb 2022 ~ April 2022
           - Rank: 127 / 1588 (Bronze Medal)
@@ -184,7 +164,7 @@ content:
          and a robot control system including the same
         description: |
           - Status: Application
-          - Application Number: 10-2023-0187604
+          - Application Number: ko10-2023-0187604
           - Description: The system obtains RGB and point cloud data from a reference camera,
            and only RGB from a target camera. Based on these inputs, it performs image matching.
            The system utilizes 2D image matching keypoints and the reference point cloud to estimate the degree of movement and rotation of the target RGB relative to the reference RGB image.
