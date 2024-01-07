@@ -39,7 +39,8 @@ about_content: | # this will include new lines to allow paragraphs
   I am a Computer Vision Developer with a deep passion for deep learning and computer vision technologies.
   Currently working in this field, my goal is to solve real-world problems using computer vision techniques.
   I am driven by the challenge and innovation in this area and aspire to make a positive impact in the world through cutting-edge technology.
-  I am most skilled in: <mark>Python</mark>, <mark>Pytorch</mark>, <mark>C++</mark>
+  
+  I am most skilled in: <mark>Python</mark>, <mark>Pytorch</mark>
 
 
 content:
