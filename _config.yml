@@ -82,7 +82,14 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      
+
+      - layout: top-left
+        title: Cable Picking
+        sub_title: PLAIF
+        description: | # this will include new lines to allow paragraphs
+          - Date: Nov 2023 -
+          - Description:
+
       - layout: top-left
         title: Automated Assembly
         sub_title: PLAIF
@@ -99,30 +106,20 @@ content:
           - Description: Developed an AI model for Instance Segmentation.
 
       - layout: top-left
-        title: Preson Fall Tracking
+        title: Car License Plate Recognition
         sub_title: FS_Solution
         description: | # this will include new lines to allow paragraphs
-          - Date: Nov 2022 - Dec 2022
-          - Description: For real-time multi-object tracking and identification of elderly fall events,
-          we designed a surveillance system capable of object tracking and fall detection
-          using advanced computer vision and machine learning algorithms.
+          - Date: Sep 2022 - Dec 2022
+          - Description: Created a system for recognizing and identifying vehicle license plates using advanced computer vision techniques,
+          including object detection and OCR, to efficiently process and transcribe alphanumeric characters under various conditions.
 
       - layout: top-left
         title: Auto-Labeling Tool
         sub_title: FS_Solution
         description: | # this will include new lines to allow paragraphs
-          - Date: Aug 2022 - Oct 2022
+          - Date: Jun 2022 - Sep 2022
           - Description: Developed a YOLO-based auto-labeling tool to automate and enhance data annotation for AI training,
           significantly reducing data preparation time and improving dataset accuracy.
-
-      - layout: top-left
-        title: Car License Plate Recognition
-        sub_title: FS_Solution
-        description: | # this will include new lines to allow paragraphs
-          - Date: Jun 2022 - Aug 2022
-          - Description: Created a system for recognizing and identifying vehicle license plates using advanced computer vision techniques,
-          including object detection and OCR, to efficiently process and transcribe alphanumeric characters under various conditions.
-
 
   - title: Awards # Title for the section
     layout: list # Type of content section (list/text)
